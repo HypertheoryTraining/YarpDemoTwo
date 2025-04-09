@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "SCQy4ZIOwe4=",
+  "success": true,
+  "projectFilePath": "/Users/jeffrygonzalez/work/class/inflight/YarpDemo/YarpDemoSolution/ReverseProxy/ReverseProxy.csproj",
+  "expectedPackageFiles": [
+    "/Users/jeffrygonzalez/.nuget/packages/system.io.hashing/8.0.0/system.io.hashing.8.0.0.nupkg.sha512",
+    "/Users/jeffrygonzalez/.nuget/packages/yarp.reverseproxy/2.3.0/yarp.reverseproxy.2.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
