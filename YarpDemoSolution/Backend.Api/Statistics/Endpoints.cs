@@ -21,24 +21,12 @@ public static class Endpoints
 
             var response = new CalculateStatisticsResponse()
             {
-                Mean = mean,
-                Median = median,
-                StandardDeviation = standardDeviation
+                Mean = Math.Round(mean, 3),
+                Median = Math.Round(median, 3),
+                StandardDeviation = Math.Round(standardDeviation, 3)
             };
             return TypedResults.Ok(response);
         });
         return endpoints;
     }
-}
-
-public record CalculateStatisticsRequest
-{
-    public required List<float> Values { get; init; }
-}
-
-public record CalculateStatisticsResponse
-{
-    public float Mean { get; init; }
-    public float Median { get; init; }
-    public double StandardDeviation { get; init; }
 }
